@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 1em 0;
+    width: 100%;
+   
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+header .header-content .logo{
+    height: 152px;
+    margin-right: 553px;
+    margin-left: -219px;
+
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1esm; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+    margin-right: 100px;
+    margin-left: 300px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-size-adjust: 10px;
+}
+header nav ul .register-button{
+    padding: 10px;
+    color: #fff;
+    background-color: #851616;
+    font-size: 20px;
+    margin-top: -10px;
+    border: #000000;
+    border-radius: 10px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.hero img {
+    width: 1921px;
+    height: 1001px;
+    object-fit: cover;
+    margin-left: -410px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+
+main {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.committees h2 {
+    text-align: center;
+    color: #d9534f;
+    margin-bottom: 80px;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.committee-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 50px;
+}
+
+.committee {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.committee img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.committee-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer-logo img {
+    height: 200px;
+}
+
+.footer-links, .footer-contact {
+    margin-left: 50px;
+}
+
+.footer-links h3, .footer-contact h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
